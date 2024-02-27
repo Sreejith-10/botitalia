@@ -932,8 +932,8 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-	background: url("/assets/icons/truck-with-white-trailer-that-says-scania-side.jpg")
-		center top no-repeat fixed;
+	background: url("/assets/icons/bg.jpg")
+		 center top no-repeat fixed;
 	background-size: cover;
 	padding: 60px 0 0 0;
 	position: relative;
