@@ -1,11 +1,3 @@
-/**
-* Template Name: BizPage
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -178,6 +170,12 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
+.header-logo {
+	width: 50px;
+	height: 50px;
+}
+
 .navbar {
 	padding: 0;
 }
@@ -421,6 +419,7 @@ h6 {
 }
 
 #hero .carousel-item {
+	background-image: url("/assets/icons/hero.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -575,6 +574,11 @@ section {
 
 /* Sections Header
 --------------------------------*/
+
+.section-header {
+	margin-top: 50px;
+}
+
 .section-header h3 {
 	font-size: 32px;
 	color: #111;
@@ -932,8 +936,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-	background: url("/assets/icons/bg.jpg")
-		 center top no-repeat fixed;
+	background: url("/assets/icons/bg.jpg") center top no-repeat fixed;
 	background-size: cover;
 	padding: 60px 0 0 0;
 	position: relative;
@@ -2066,6 +2069,13 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+.footer-logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
 #footer {
 	background: #000;
 	padding: 0 0 30px 0;
